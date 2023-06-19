@@ -10,7 +10,6 @@ export default function TicketsShowcase() {
 
     return (
         <div className="tickets-showcase flex items-center justify-center">
-            <h1>Tab ativa: {activeTab}</h1>
             <div className="tabs tabs-boxed">
                 <button
                     className={
