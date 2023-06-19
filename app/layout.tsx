@@ -1,3 +1,4 @@
+import Footer from './components/Footer';
 import Header from './components/Header';
 import './globals.css';
 
@@ -12,9 +13,10 @@ export default function RootLayout({
     children: React.ReactNode;
 }) {
     return (
-        <html lang="pt-br">
+        <html data-theme="night" lang="pt-br">
             <Header />
             {children}
+            <Footer />
         </html>
     );
 }

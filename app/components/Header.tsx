@@ -56,7 +56,7 @@ const strings = {
 
 export default function Header() {
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-neutral">
             <div className="navbar-start"></div>
             <div className="navbar-center">
                 <a className="btn btn-ghost normal-case text-3xl">

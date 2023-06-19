@@ -14,8 +14,8 @@ module.exports = {
             {
                 'ts-colors': {
                     primary: '#c084fc',
-                    secondary: '#5b21b6',
-                    accent: '#8b5cf6',
+                    secondary: '#581c87',
+                    accent: '#c026d3',
                     neutral: '#4f46e5',
                     'base-100': '#111827',
                     info: '#0ea5e9',
@@ -24,6 +24,7 @@ module.exports = {
                     error: '#dc2626',
                 },
             },
+            'night',
         ],
     },
 };
