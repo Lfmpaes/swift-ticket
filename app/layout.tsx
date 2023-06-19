@@ -14,9 +14,11 @@ export default function RootLayout({
 }) {
     return (
         <html data-theme="night" lang="pt-br">
-            <Header />
-            {children}
-            <Footer />
+            <body>
+                <Header />
+                {children}
+                <Footer />
+            </body>
         </html>
     );
 }
